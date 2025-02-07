@@ -14,7 +14,7 @@ def simular_canicas(no_canicas, niveles_obstaculos):
     resultados = []
     #Se usa la función For para buscar la posición de cada Canica
     for i in range(no_canicas):
-        #Se Indica la posision, la posición inicial de cada Canica es 0 por lo que inician desde el centro
+        #Se indica la posision inicial, la posición inicial de cada Canica es 0 por lo que inician desde el centro
         posicion = 0
         #Se usa la función For para revisa si la posición de la Canica es +1 o -1
         for i in range(niveles_obstaculos):
