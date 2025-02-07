@@ -5,9 +5,10 @@ import matplotlib.pyplot as plt
 #Se crea una función para simular el recorrido de las canicas en la Máquina de Galton
 def simular_canicas(no_canicas, niveles_obstaculos):
     """
-    Simula la caída de un número específico de canicas en una máquina de Galton con un número específico de niveles.
+    Simula la caída de un número específico de canicas en una máquina de Galton con un número específico de niveles:
     - no_canicas: Número total de canicas a simular.
     - niveles_obstaculo: Número de niveles de obstáculos que atraviesa cada canica.
+    - resultados: Lista con las posisiones
     """
     #Lista para almacenar los resultados de la posición de cada Canica
     resultados = []
@@ -28,7 +29,7 @@ def simular_canicas(no_canicas, niveles_obstaculos):
 # Función para graficar los resultados en un histograma
 def graficar_histograma(resultados):
     """
-    Genera un histograma con la distribución final de las canicas.
+    Genera un histograma con la distribución final de las canicas:
     - resultados: Lista con las posiciones de las canicas.
     """
     #Se crea el histograma, se le indica que no debe superar las 13 barras o contenedores, se le indica que el color de la línea de la gráfica y el color de las barras
