@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 #Se crea una función para simular el recorrido de las canicas en la Máquina de Galton
 def simular_canicas(no_canicas, niveles_obstaculos):
     """
-    Simula la caída de un número específico de canicas en una máquina de Galton con un número específico de niveles:
+    Simula la caída o recorrido de un número específico de canicas en una máquina de Galton con un número específico de niveles:
     - no_canicas: Número total de canicas a simular.
     - niveles_obstaculo: Número de niveles de obstáculos que atraviesa cada canica.
     - resultados: Lista con las posisiones
