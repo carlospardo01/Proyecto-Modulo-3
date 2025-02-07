@@ -10,3 +10,5 @@ El proyecto lo realice de la siguiente manera.
 8. Al terminar la primera función empecé a realizar la otra función para graficar los resultados, lo cual era más sencillo que la primera función según lo visto en los videos de clase, pues explicaban el histograma.
 9. Busqué como modificar colores y ejes en la gráfica para añadir eso en la función y cumplir con todo lo requerido en la actividad.
 10. Luego llamé la función y la grafiqué con los datos que pedía el ejericio.
+11. se probó el ejercicio y la gráfica mostraba los datos.
+12. Comenté el código y describí las funciones para entender lo que hacían.
