@@ -1,4 +1,4 @@
-#Importamos las librerías para numeros aleatorios y para graficar
+#Se importan las librerías para numeros aleatorios y para graficar
 import numpy as np
 import random
 import matplotlib.pyplot as plt
@@ -10,15 +10,15 @@ def simular_canicas(no_canicas, niveles_obstaculos):
     - niveles_obstaculo: Número de niveles de obstáculos que atraviesa cada canica.
     - resultados: Lista con las posisiones
     """
-    #Lista para almacenar los resultados de la posición de cada Canica
+    #Se genera una lista para almacenar los resultados de la posición de cada Canica
     resultados = []
-    #Buscar la posición de cada Canica
+    #Se usa la función For para buscar la posición de cada Canica
     for i in range(no_canicas):
-        #La posición inicial de cada Canica es 0 por lo que inician desde el centro
+        #Se Indica la posision, la posición inicial de cada Canica es 0 por lo que inician desde el centro
         posicion = 0
-        #Se revisa si la posición de la Canica es +1 o -1
+        #Se usa la función For para revisa si la posición de la Canica es +1 o -1
         for i in range(niveles_obstaculos):
-            #Se revisa a qué lado se puede mover, izquierda (-1) o derecha (+1)
+            #Se usa random.choice([-1, 1]) para revisa a qué lado se puede mover, izquierda (-1) o derecha (+1)
             Direccion = random.choice([-1, 1])
             #Se actualiza la posición según el movimiento aleatorio sumando la posición y la dirección
             posicion += Direccion
@@ -26,7 +26,7 @@ def simular_canicas(no_canicas, niveles_obstaculos):
         resultados.append(posicion)
     #Se devuelve la lista con los datos obtenidos
     return resultados
-# Función para graficar los resultados en un histograma
+#Se crea una función para graficar los resultados en un histograma
 def graficar_histograma(resultados):
     """
     Genera un histograma con la distribución final de las canicas:
